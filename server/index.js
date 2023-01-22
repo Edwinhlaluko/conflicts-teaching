@@ -4,7 +4,7 @@ const PORT = 5000
 
 const app = express()
 
-app.get('/edwin-test', (req, res) => {
+app.get('/beer', (req, res) => {
     res.send("Hello Edwin!")
 })
 
